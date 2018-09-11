@@ -1,0 +1,23 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Medicus Engine Helper Installer",
+          "submenu": [
+            {
+              "label": "Install Medicus Engine Helper Package",
+              "command": "medicus-engine-helper-installer:install"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

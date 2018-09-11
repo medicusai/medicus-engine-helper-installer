@@ -1,0 +1,126 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.medicus-engine-helper-installer {
+  display: block !important;
+}
+
+.medicus-engine-helper-installer input{
+  display: block;
+}
+
+.medicus-engine-helper-installer input[type="text"] {
+  width: 100%;
+}
+
+.medicus-engine-helper-installer p.console{
+	background-color: #BBBBCC;
+	border: 1px solid gray;
+	height: 200px;
+	overflow-y: scroll;
+}
+
+.medicus-engine-helper-installer .console pre{
+	padding: 0;
+	background-color: initial;
+	margin-bottom: 5px;
+	border-radius: 0;
+}
+
+.medicus-engine-helper-installer .waitform{
+	position: absolute;
+	top: 0px;
+  left: 0px;
+	width: 100%;
+	height: 100%;
+  background-color: #fff;
+	opacity: 0.7;
+	z-index: 99;
+	text-align: center;
+	display: none;
+}
+
+.aab-right-label {
+	font-style: italic;
+}
+
+//loader style
+atom-panel.modal.overlay.from-top.loader-modal {
+  height: 0;
+    width: 0;
+    padding: 0;
+    margin: auto;
+    top: 50vh;
+}
+atom-panel.modal.overlay.from-top.loader-modal:before {
+    height: 0;
+    width: 0;
+}
+.loader-message-container{
+  height: 240px;
+  width: 240px;
+  line-height: 240px;
+  text-align: center;
+  position: absolute;
+}
+#mehi-loader-message{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: 18px;
+  color: #fff;
+  padding: 20px;
+}
+//loader animation
+.loader-ring {
+  position: absolute!important;
+  top: 50%;
+  left: 50%;
+  margin: -120px 0 0 -120px;
+  width: 240px;
+  height: 240px;
+}
+
+.loader-ring-light {
+  width: 240px;
+  height: 240px;
+  -moz-border-radius: 240px;
+  -webkit-border-radius: 240px;
+  border-radius: 240px;
+  -moz-box-shadow: 0 4px 0 white inset;
+  -webkit-box-shadow: 0 4px 0 white inset;
+  box-shadow: 0 4px 0 white inset;
+  animation: rotate-360 2s linear infinite;
+}
+
+.loader-ring-track {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 240px;
+  -moz-border-radius: 240px;
+  -webkit-border-radius: 240px;
+  border-radius: 240px;
+  -moz-box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.3) inset;
+  -webkit-box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.3) inset;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.3) inset;
+}
+
+@keyframes rotate-360 {
+  from {
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
