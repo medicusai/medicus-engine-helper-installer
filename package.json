@@ -1,7 +1,7 @@
 {
   "name": "medicus-engine-helper-installer",
   "main": "./lib/installer",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Installer for Medicus Engine Helper package for Atom text editor.",
   "keywords": [],
   "activationCommands": {
@@ -17,8 +17,6 @@
     "fs-plus": "^3.0.2",
     "uuid": "^3.1.0"
   },
-  "providedServices": {
-  },
-  "consumedServices": {
-  }
+  "providedServices": {},
+  "consumedServices": {}
 }
