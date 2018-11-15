@@ -1,19 +1,20 @@
 {
   "name": "medicus-engine-helper-installer",
   "main": "./lib/installer",
-  "version": "0.1.0",
-  "description": "Installer for Medicus Engine Helper package for Atom text editor.",
+  "version": "0.0.0",
+  "description": "Installer for medicus engine helper package for Atom.",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": {}
   },
-  "repository": "https://github.com/medicusai/medicus-engine-helper-installer",
+  "repository": "https://github.com/atom/medicus-engine-helper-installer",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
     "extract-zip": "^1.6.7",
+    "fs-extra": "^7.0.1",
     "fs-plus": "^3.0.2",
     "uuid": "^3.1.0"
   },
