@@ -1,7 +1,7 @@
 {
   "name": "medicus-engine-helper-installer",
   "main": "./lib/installer",
-  "version": "0.1.6",
+  "version": "0.1.5",
   "description": "Installer for medicus engine helper package for Atom.",
   "keywords": [],
   "activationCommands": {
@@ -13,10 +13,9 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "adm-zip": "^0.4.13",
-    "extract-zip": "^1.6.7",
     "fs-extra": "^7.0.1",
     "fs-plus": "^3.0.2",
+    "unzipper": "^0.9.4",
     "uuid": "^3.1.0"
   },
   "providedServices": {},
